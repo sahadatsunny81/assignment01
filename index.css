@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.hero-area{
+    background-image: url("./assets folder/Assets/Hero-bg.png");
+    height: 698px;
+    width: 1440px;
+    display:;
+   
+}
+
+.navbar{
+    display: flex;
+    height: 151px;
+    width: 1140px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 51px;
+    width: 99px;
+}
+.nav-links{
+  
+    background-color: #4E47FF;
+    height:48px ;
+    width:132px;
+    border-radius: 10px;
+
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 13px 30px ;
+    display: inline-block;
+   
+}
+.title{
+    height: 237px;
+    width: 905px;
+    text-align: center;
+    font-size: 40px;
+    margin: 152px auto;
+}
+.btn1{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    width: 174px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
