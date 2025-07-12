@@ -4,11 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    
 }
+
 body{
     overflow-x: hidden;
-   
+    width: 1400px; 
+    
 }
 
 /*Header Section start*/
@@ -17,8 +18,7 @@ body{
     background-image: url("./assets folder/Assets/Hero-bg.png");
     height: 698px;
     width: 1440px;
-    display:;
-   
+
 }
 
 .navbar{
@@ -80,7 +80,6 @@ body{
     height: 328px;
     width: 1140px;
     margin: 0 auto;
-    /* justify-content: space-between; */
     background-color:;
    
  }
@@ -127,31 +126,82 @@ body{
    /* second content start */
 
     .second-content{
-        /* display: flex;
+
+        background-color:#bcbfd7 ;
         height: 306px;
         width: 1140px;
-        margin: 50px auto;
-        align-items: center;
-        background-color:; */
-
-        margin: ;
-        background-color:#bcbfd7 ;
         margin: 80px  auto;
         padding: 50px 150px 150px 150px;
-        display: flex;
+        border-radius: 20px;
+       
     }
     .second-content h2{
         font-size: 32px;
-        /* margin-left: 300px; */
-      
-    
-    }
-    .details2{
-        
-       
+        margin-left: 150px;
     }
 
     .users-count{
-
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+        margin-left: 180px ;
+        text-align: center;
     }
+    
+    /* second content end */
+
+    /* third content start */
+    
+
+    /* third content end */
+
+    /* Fourth content start */
+
+    .fourth-content{
+        align-items: center;
+        text-align: center;
+    }
+    .fourth-content h1{
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    .fourth-content p{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .fourth-content img{
+        width: 840px;
+        height: 366px;
+        margin-top: 20px;
+        border-radius: 50px;
+    }
+
+    .btn3{
+        background-color: #4E47FF;
+        width: 195px;
+        height: 48px;
+        margin: 20px auto;
+        border-radius: 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .btn3 a{
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 13px 30px ;
+        display: inline-block;
+    }
+   
+    /* Fourth content end */
+
+    
+
+
+   
+
         
+    
