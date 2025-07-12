@@ -4,11 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    margin: 0 30 0 30;
 }
 
 body{
     overflow-x: hidden;
+    width: 1440px;
     
     background-color: #ededed;
     
@@ -161,12 +161,14 @@ body{
     /* Fourth content start */
 
     .fourth-content{
+        width: 1440px;
         align-items: center;
         text-align: center;
         background-color: white;
         border-radius: 20px;
         padding-bottom: 40px;
         padding-top: 20px;
+       
     }
     .fourth-content h1{
         font-size: 50px;
@@ -213,11 +215,10 @@ body{
         display: flex;
         height: 632px;
         width: 1140px;
-        margin: 20px 0 0 140px ;
+        margin: 20px auto ;
         background-color:;
         justify-content: center;
         align-items: center;
-        border: 2px solid blue;
         gap: 50px;
 
     }
@@ -225,7 +226,6 @@ body{
     .details3{
         height: 232px;
         width: 528px;
-        border: 2px solid black;
         gap: 20px;
     }
 
@@ -239,7 +239,6 @@ body{
 
         height: 497px;
         width: 490px;
-        border: 2px solid aqua;
         
     }
 
@@ -287,15 +286,10 @@ body{
 
    .footer-link a {
     text-decoration: none;
-    gap: 20px;
+    gap: 50px;
     margin-top: 20px;
     margin-bottom: 50px;
    }
-
-
-
-
-
 
     /* footer section end */
 
